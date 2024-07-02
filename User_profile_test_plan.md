@@ -41,11 +41,11 @@ Goals:
 - Automated tests will run on a mock instance of DB and we will mock the endpoints. We will manually test the feature in QA environment and also in Production environment.
 
 ## Testing Strategy
-- Unit tests
+### Unit tests
    - Profile Picture Upload component
    - Bio section component
    - Theme color selection component
-- Integration and End-to-end Automated tests
+### Integration and End-to-end Automated tests
    - Profile Upload
       - | 001 | Verify that you could upload a profile picture within 5mb | Desktop | P0 | Link-to-TestRail |
          - Steps: Click to upload, mock `POST /api/profile/picture` endpoint and call it, verify that the profile picture is updated in the mock database, and verify that new profile picture appears in profile. Refresh the page and verify profile picture still appears
@@ -83,11 +83,11 @@ Goals:
          - Steps: Select a color, click save, mock `PUT /api/profile/theme`, verify that the color is saved in the mock database, and verify that the color is applied to the profile
       - | 017 | Verify you can select a theme color and it changes | Mobile | P0 | Link-to-TestRail |
          - Steps: Select a color, click save, mock `PUT /api/profile/theme`, verify that the color is saved in the mock database, and verify that the color is applied to the profile
-- Accessibility
+### Accessibility
    - Integrate axe devtools API into Cypress tests, we will run axe on each component and page for Desktop and Mobile, and make sure there are no violations. Axe checks for color contrast and other WCAG guidelines.
    - Run axe devtools in the web browser manually and check for violations
    - Check tabbing order of each component (Profile picture upload, bio section, theme color)
-- Acceptance (We can test manually during the bug bash or when feature is in a pre-release state)
+### Acceptance (We can test manually during the bug bash or when feature is in a pre-release state)
    - Profile Picture Upload:
       - Scenario 1: Upload Profile Picture
         - Steps:
@@ -123,6 +123,10 @@ Goals:
             2. Check the layout, responsiveness, and visual consistency of profile customization elements.
          - Expected Outcome:
             - Ensure that UI elements (buttons, inputs, colors) align with design specifications and are intuitive to use.
+### Performance
+   - Use tool like Apache JMeter to do some load testing on User profile and clicks on uploading profile picture and check for performance degradation
+### Compatibility
+   - Verify that changes you make, in the user profile, on desktop show up on mobile and vice versa
 
 ## Risk Management
    - Performance degradation after profile upload - could lead to a site slowdown or a slow performance of uploading a profile picture, which could lead to user not liking the feature
