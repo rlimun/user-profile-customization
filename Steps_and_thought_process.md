@@ -23,12 +23,12 @@ This would be the steps and my thought process when working on test plans and au
    - Present the test plan to all stakeholders for review and approval.
    - Agile Principle: Regular stakeholder involvement and feedback.
 
-6. **Create Test Cases and Add Them to TestRail:**
-   - Develop detailed test cases and enter them into TestRail for tracking.
+6. **Add the Test Cases to TestRail:**
+   - Enter the test cases into TestRail for tracking.
    - Agile Principle: Documentation and traceability of requirements and tests.
 
 7. **Create JIRA Tickets for Automated Test Creation:**
-   - Generate JIRA tickets to track the creation of automated tests, linking them to the TestRail test cases.
+   - Generate JIRA tickets to track the creation of automated tests, linking TestRail test cases to these JIRA tickets.
    - Agile Principle: Task management and transparency.
 
 8. **Automated Test Development:**
