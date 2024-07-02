@@ -58,7 +58,7 @@ This would be the steps and my thought process when working on test plans and au
 ### Thought process while creating the test plan:
 I want to create the test plan but since the design doc has a lot of missing information, I would ask questions before creating my test plan, and they would be the following:
 
-##### Questions regarding tools and technologies used:
+#### Questions regarding tools and technologies used:
 - What tools, frameworks, and libraries will be used to create this feature?
    - Answer: The feature will be developed using React for the frontend, Node.js for the backend, and MongoDB for the database. The file upload functionality will be handled using the Multer library.
 - It seems as if we are using a profile, so in order to grab profile data, what database are we grabbing from?
@@ -74,7 +74,7 @@ I want to create the test plan but since the design doc has a lot of missing inf
 - Are there any specific environment configurations required for testing?
    - Answer: The testing environment for our automation coverage requires a mock MongoDB instance and mock endpoints for file uploads. Additionally, testing configurations need to include a tool for simulating network latency. When manually testing, we will use the real MongoDB instance and the real endpoints.
 
-##### Questions regarding the actual feature:
+#### Questions regarding the actual feature:
 - What would the error message look like if a user tried to:
    - Upload a file that's not of an accepted format
       - Answer: "Invalid file format. Please upload a JPEG, PNG, or GIF file."
@@ -95,7 +95,7 @@ I want to create the test plan but since the design doc has a lot of missing inf
 - Are there any loading indicators or messages shown to the user during the upload or theme color selection process?
    - Answer: Yes, a loading spinner appears during the profile picture upload and theme color selection processes. Additionally, a "Saving changes..." message is displayed until the process is complete.
 
-##### Other Questions:
+#### Other Questions:
 - What is the goal of enhancing user engagement and how will this be measured?
    - Answer: The goal is to increase user engagement by 20% over the next six months. This will be measured using metrics such as the number of profile customizations, user activity on the profile page, and user feedback surveys.
 - How will performance be monitored?
