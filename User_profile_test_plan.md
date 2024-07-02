@@ -1,9 +1,9 @@
 # User Profile Test Plan
 
-Product Owner: 
-Engineers: 
-QA: Richelle Limun
-Designer: 
+- Product Owner: 
+- Engineers: 
+- QA: Richelle Limun
+- Designer: 
 
 ## Important Links:
 - [User Profile Design Doc](https://docs.google.com/document/d/162-3462_R-0t79072-800/edit?usp=sharing)
