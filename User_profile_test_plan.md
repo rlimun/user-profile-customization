@@ -87,6 +87,7 @@ Goals:
    - Integrate axe devtools API into Cypress tests, we will run axe on each component and page for Desktop and Mobile, and make sure there are no violations. Axe checks for color contrast and other WCAG guidelines.
    - Run axe devtools in the web browser manually and check for violations
    - Check tabbing order of each component (Profile picture upload, bio section, theme color)
+   - Test voiceover of each component
 ### Acceptance (We can test manually during the bug bash or when feature is in a pre-release state)
    - Profile Picture Upload:
       - Scenario 1: Upload Profile Picture
