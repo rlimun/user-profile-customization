@@ -11,8 +11,8 @@ This would be the steps and my thought process when working on test plans and au
    - Develop a test plan that outlines the scope, objectives, and strategies based on the design document.
    - Agile Principle: Focus on clear, iterative planning.
 
-3. **Create Test Scenarios for the Test Plan:**
-   - Design test scenarios that will be stored in TestRail. Track which test cases are automated and which are not.
+3. **Create Test Scenarios and Test Cases for the Test Plan:**
+   - Design test cases from Test Scenarios that will be stored in TestRail. Track which test cases are automated and which are not.
    - Agile Principle: Continuous integration and visibility of work progress.
 
 4. **Update the Test Plan as We Go Along:**
